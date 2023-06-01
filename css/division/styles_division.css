@@ -1,0 +1,8 @@
+#sect-1{
+    width: 80%;
+    height: 100vh;
+    background-color: rgba(15, 15, 15, 0.334);
+    margin: 2em 0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+}

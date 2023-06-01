@@ -1,0 +1,144 @@
+main{
+    background-image: url('../../imgs/Math.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#sect-1{
+    width: 80%;
+    height: 100vh;
+    background-color: rgba(15, 15, 15, 0.334);
+    margin: 2em 0;
+    border-radius: 20px;
+    box-shadow: 0 0 15px black;
+    padding: 1.5em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+#sect-1 ul{
+    display: flex;
+    gap: .5em;
+    list-style: none;
+    color: white;
+    width: fit-content;
+    font-size: 2em;
+}
+#sect-1 .btnGameTable{
+    background-color: orangered;
+    padding: .2em .5em;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+#sect-1 .btnGameCantidad{
+    background-color: orangered;
+    padding: .2em .5em;
+    border-radius: 10px;
+    cursor: pointer;
+
+    transition: all .5s;
+}
+#sect-1 .btnGameCantidad:hover{
+    color: orangered;
+    background-color: white;
+}
+#sect-1 .configGame{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#sect-1 .configGame h1{
+    margin-left: .8em;
+    font-size: 3em;
+    color: black;
+}
+#sect-1 .btnGameTable:hover{
+    color: orangered;
+    background-color: white;
+}
+/* ! Game */
+#sect-1 .game{
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+#sect-1 .game h2{
+    font-size: 9em;
+    color: black;
+}
+#sect-1 .game .valor2{
+    display: flex;
+    gap: 1.5em;
+}
+#sect-1 .game .resultado input{
+    background: none;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 8em;
+    width: 4em;
+    border-bottom: 5px solid white;
+    border-radius: 20px;
+}
+#sect-1 .respuesta{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#sect-1 .btn-game{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    flex-wrap: wrap;
+}
+#sect-1 .btn-game button{
+    padding: .5em 3em;
+    font-size: 1.4em;
+    background-color: orangered;
+    color: antiquewhite;
+    border-radius: 20px;
+
+    transition: all .5s;
+}
+#sect-1 .btn-game button:hover{
+    color: orangered;
+    background-color: antiquewhite;
+    box-shadow: 0 0 10px black;
+}
+/*! --------- Responsive --------- */
+@media (max-width: 1200px) {
+    #sect-1{
+        height: fit-content;
+    }
+    #sect-1 .configGame{
+        flex-direction: column;
+        align-items: center;
+    }
+    #sect-1 .configGame .btnsGameTable{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+        height: fit-content;
+        justify-content: center;
+    }
+    #sect-1 .game{
+        flex-direction: column;
+    }
+    #sect-1 .game .igual{
+        display: none;
+    }
+    #sect-1 .game .line{
+        width: 80%;
+        border: 5px solid black;
+    }
+    #sect-1 .game .resultado input{
+        width: 100%;
+        font-size: 5em;
+    }
+}

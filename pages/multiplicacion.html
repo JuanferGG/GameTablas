@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/styles.css">
+        <link rel="stylesheet" href="../css/multi/styles_multi.css">
+    <title>Tablas Multiplicar</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Estudio - Tablas Multiplicar</h1>
+            <ul>
+                <li><a href="../index.html"><i class="fa-solid fa-house"></i></a></li>
+            </ul>
+        </header>
+        <section id="sect-1">
+            <div class="configGame">
+                <div>
+                    <h1>Tabla de Multiplicar:</h1>
+                    <ul class="btnsGameTable">
+                        <li class="btnGameTable">2</li>
+                        <li class="btnGameTable">3</li>
+                        <li class="btnGameTable">4</li>
+                        <li class="btnGameTable">5</li>
+                        <li class="btnGameTable">6</li>
+                        <li class="btnGameTable">7</li>
+                        <li class="btnGameTable">8</li>
+                        <li class="btnGameTable">9</li>
+                    </ul>
+                </div>
+                <div>
+                    <h1>Cantidad: </h1>
+                    <ul>
+                        <li class="btnGameCantidad">1</li>
+                        <li class="btnGameCantidad">2</li>
+                        <li class="btnGameCantidad">3</li>
+                        <li class="btnGameCantidad">4</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="game">
+                <div class="valo1">
+                    <h2 id="valor1">10</h2>
+                </div>
+                <div class="valor2">
+                    <h2 style="color: red;">X </h2><h2 id="valor2">5</h2>
+                </div>
+                <div class="line">
+
+                </div>
+                <div>
+                    <h2 class="igual">=</h2>
+                </div>
+                <div class="resultado">
+                    <input type="text" id="inputRespuesta" autofocus>
+                </div>
+            </div>
+            <div class="respuesta">
+                <span id="mensaje" style="font-size: 3em;"></span>
+            </div>
+            <div class="btn-game">
+                <button id="nuevo">Nuevo</button>
+                <button id="comprobar">Comprobar</button>
+                <button id="verRespuesta">Resultado</button>
+            </div>
+        </section>
+    </main>
+
+</body>
+<script src="../js/multi.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/b7470ea251.js" crossorigin="anonymous"></script>
+
+</html>
